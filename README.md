@@ -9,12 +9,12 @@ This project offers tabular methods and deep learning methods to solve Connect G
 ## Folder Structure
     .
     ├── ..
-    ├── lib                        # `GENERAL METHODS` 
+    ├── lib                        [GENERAL METHODS]
     │   ├── config.py              # Debugging file containing assertion code. (In the beginning, many codes are asserted, 
     │   │                            but when the agents fail too many times, I only focus on agents code and networks architecture.) 
     │   └── General.py             # This file contains general methods 
     │ 
-    ├── src                        `SOURCE FILES`
+    ├── src                        [SOURCE FILES]
     │   ├── env                    # General library for agents 
     │   │   ├── Board.py           # Class for a board game
     │   │   ├── BoardSetting.py    # Class for setting a specific game start 
@@ -28,7 +28,7 @@ This project offers tabular methods and deep learning methods to solve Connect G
     │   │                            2. A symmetry is eliminated as well. Hence, the complexity could reach O(765).
     │   └── Rand_play.py           # Class for a random player which pick a move based on the size of a board
     │
-    ├── tests                      # `UNIT TESTS`
+    ├── tests                      [UNIT TESTS]
     │   ├── env                    # This folder tests environments
     │   │   ├── board_test.py      # Unit-test of Board Class including verifying winning condition 
     │   │   └── gomoku_test.py     # Unit-test of Connect Game. I leave the name Gomoku but it could be Noughts-and-Crosses/ connect Four/ Gomoku etc, depending on the need.
