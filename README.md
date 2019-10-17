@@ -2,9 +2,11 @@
 This project offers tabular methods and deep learning methods to solve Connect Games such as Noughts-and-Crosses or Gomoku. However, a bigger board will lead to a lower performance. 
 
 ## Tutorial
-> How to use this?
-> You could verify the methods that I posted in `tests` folder.
-> I put them in `tests` because people could examine my logic through either my code or my testing logic.
+```
+How to use this?
+You could verify the methods that I posted in `tests` folder.
+I put them in `tests` because people could examine my logic through either my code or my testing logic.
+```
 
 ## Folder Structure
     .
