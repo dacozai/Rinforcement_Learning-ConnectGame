@@ -5,7 +5,7 @@ This project offers tabular methods and deep learning methods to solve Connect G
 ```
 How to use this?
 You could verify the methods that I posted in `tests` folder.
-I put them in `tests` because people could examine my logic through either my code or my testing logic.
+I put them in `tests` because people could examine algorithms through either my code or my testing logic.
 ```
 
 ## Folder Structure
